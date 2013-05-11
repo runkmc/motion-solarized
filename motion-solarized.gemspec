@@ -1,15 +1,14 @@
 # -*- encoding: utf-8 -*-
-VERSION = "1.0"
+require File.expand_path('../lib/project/version.rb', __FILE__)
 
 Gem::Specification.new do |spec|
   spec.name          = "motion-solarized"
-  spec.version       = VERSION
+  spec.version       = MotionSolarized::Version
   spec.authors       = ["Kevin McGladdery"]
   spec.email         = ["kevin.mcgladdery@gmail.com"]
   spec.description   = %q{TODO: Write a gem description}
   spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
-  spec.license       = ""
+  spec.homepage      = "http://github.com/runkmc/motion-solarized"
 
   files = []
   files << 'README.md'
