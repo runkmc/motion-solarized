@@ -1,4 +1,4 @@
-class UIColor
+class Solarized
 
   SOLARIZED_COLORS = {
      Base03: {red:  0, green: 43, blue: 54},
@@ -20,7 +20,7 @@ class UIColor
   }
 
   SOLARIZED_COLORS.each do |key, value|
-    define_singleton_method "solarized#{key}Color" do
+    define_singleton_method "#{key}" do
       UIColor.colorWithRed((value[:red]/255.0), green:(value[:green]/255.0), blue:(value[:blue]/255.0), alpha:1.0)
     end
   end
