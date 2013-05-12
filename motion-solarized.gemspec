@@ -12,6 +12,7 @@ Gem::Specification.new do |spec|
 
   files = []
   files << 'README.md'
+  files << 'LICENSE'
   files.concat(Dir.glob('lib/**/*.rb'))
   spec.files         = files
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
