@@ -1,6 +1,8 @@
 # motion-solarized
 
-TODO: Write a gem description
+The [Solarized colorscheme](http://ethanschoonover.com/solarized) for use in [Rubymotion](http://www.rubymotion.com) projects.
+
+Each color in the colorscheme is represented by a class method on the Solarized class. 
 
 ## Installation
 
