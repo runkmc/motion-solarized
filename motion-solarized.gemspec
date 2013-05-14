@@ -6,8 +6,8 @@ Gem::Specification.new do |spec|
   spec.version       = MotionSolarized::Version
   spec.authors       = ["Kevin McGladdery"]
   spec.email         = ["kevin.mcgladdery@gmail.com"]
-  spec.description   = File.read(File.join(File.dirname(__FILE__), 'README.md'))
-  spec.summary       = %q{The Solarized colorscheme for use in Rubymotion projects. Each color in the colorscheme is represented by a class method on the Solarized class. Each method returns a UIColor object.}
+  spec.summary = "Solarized colors for Rubymotion"
+  spec.description = %q{The Solarized colorscheme for use in Rubymotion projects. Each color in the colorscheme is represented by a class method on the Solarized class. Each method returns a UIColor object.}
   spec.homepage      = "http://github.com/runkmc/motion-solarized"
 
   files = []
